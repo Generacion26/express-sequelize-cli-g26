@@ -1,19 +1,19 @@
 {
-  "name": "express-sequelize-cli-g26",
+  "name": "npx-express-cli-g26",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "bin": "./bin/cli.js",
+  "bin": "./bin/cli/js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/server.js",
-    "dev": "nodemon ./src/server.js"
+    "dev": "nodemon src/server",
+    "start": "node src/server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "2.8.5",
+    "dotenv": "16.3.1",
     "express": "4.18.2",
     "helmet": "7.0.0",
     "pg": "8.11.3",
