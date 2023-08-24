@@ -1,8 +1,9 @@
 {
-  "name": "downloads",
+  "name": "express-sequelize-cli-g26",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": "./bin/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/server.js",
